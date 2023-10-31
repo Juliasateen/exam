@@ -1,6 +1,4 @@
 .inner-customer {
-    outline: 1px solid red;
-
     padding: 130px 0 153px 0;
     background-image: url(../images/customer/bg-customar.png);
     background-size: cover;
@@ -66,7 +64,6 @@
 }
 
 .stat {
-    /* outline: 1px solid red; */
     padding: 100px 13px 0 13px;
     display: flex;
     flex-wrap: wrap;

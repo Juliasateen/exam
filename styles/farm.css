@@ -11,8 +11,6 @@
 }
 
 .farm__right {
-    outline: 1px solid rgb(218, 112, 228);
-
     padding: 33px 42px 50px 60px;
     display: flex;
     flex-direction: column;
@@ -84,10 +82,7 @@
     .farm {
         padding-bottom: 200px;
     }
-    /* .farm__left {
-        width: 550px;
 
-    } */
     .farm__right {
         width: 550px;
     }
@@ -97,21 +92,15 @@
     .farm {
         padding-bottom: 250px;
     }
-    /* .farm__left {
-        width: 500px;
-
-    } */
+  
     .farm__right {
         width: 500px;
     }
 }
 
 @media (max-width: 520px) {
-    
-    
     .farm__right {
         padding: 5px 10px 10px 20px;
-
         width: 400px;
     }
 }
@@ -120,7 +109,7 @@
     .farm {
         padding-bottom: 350px;
     }
-        .farm__right {
+    .farm__right {
         width: 380px;
     }
 }

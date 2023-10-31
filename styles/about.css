@@ -1,5 +1,4 @@
 .inner-about {
-    outline: 1px solid green;
     background: var(--color-smoky);
     padding: 130px 0 175px 0;
 }
@@ -20,7 +19,7 @@
     width: 670px;
 }
 
-.about-organic__title {
+.about-organic__subtitle {
     margin-bottom: 22px;
     width: 521px;
 }
@@ -157,6 +156,9 @@
     .general-offer--mdeia {
         text-align: center;
     }
+
+    .about-organic__subtitle {
+    }
 }
 
 @media (max-width: 695px) {
@@ -176,9 +178,8 @@
 }
 
 @media (max-width: 520px) {
-    .about-organic__title {
+    .about-organic__subtitle {
         width: 400px;
-        text-align: center;
     }
 
     .about-organic__right {
@@ -191,7 +192,7 @@
 }
 
 @media (max-width: 432px) {
-    .about-organic__title {
+    .about-organic__subtitle {
         width: 300px;
         text-align: center;
     }

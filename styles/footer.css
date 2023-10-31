@@ -1,5 +1,4 @@
 .inner-footer {
-    outline: 1px solid red;
     padding: 84px 0 82px 0;
 }
 
@@ -8,7 +7,6 @@
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-
 }
 
 .footer__contact {
@@ -112,8 +110,7 @@
 
 @media (max-width: 1070px) {
     .footer__company {
-        padding: 0 20px 20px 20px;
-
+        padding: 20px;
         width: 400px;
     }
 
@@ -122,7 +119,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
 }
 
 @media (max-width: 898px) {
@@ -162,7 +158,6 @@
         border-right: 1px solid var(--color-light-gray);
         gap: 10px;
     }
-
 }
 
 @media (max-width: 363px) {
@@ -187,15 +182,12 @@
         font-size: 14px;
     }
 
-
-
     .footer__company {
         width: 250px;
     }
 
     .footer__description {
         font-size: 14px;
-
     }
 
     .footer__pages {
@@ -205,7 +197,6 @@
 
     .footer__pages-text {
         font-size: 14px;
-
     }
 
 }
