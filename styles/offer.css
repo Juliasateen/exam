@@ -1,0 +1,141 @@
+.inner-offer {
+    padding: 140px 0;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-left {
+    padding: 105px 0 105px 55px;
+    width: 665px;
+    height: 378px;
+    color: var(--color-white);
+    background-image: url(../images/offer/banana.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+
+.general-offer__white {
+    color: var(--color-white)!important;
+}
+
+.offer-left__fruit {
+    width: 219px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+}
+
+.offer-right {
+    padding: 105px 0 105px 55px;
+    width: 665px;
+    height: 378px;
+    background-image: url(../images/offer/apricot.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+
+.offer-right__offer {
+    color: var(--color-mint);
+    font-family: var(--font-family-yellowtail);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 64.8px;
+    letter-spacing: 0.36px;
+}
+
+.offer-right__vegetables {
+    width: 264px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+}
+
+@media (max-width: 1425px) {
+    .inner-offer {
+        padding: 50px 0;
+    }
+
+    .offer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .inner-offer {
+        padding: 30px 10px;
+    }
+
+    .offer-left {
+        padding: 30px 0 20px 35px;
+        width: 550px;
+        height: 264px;
+        background-position: center center;
+    }
+
+    .offer-right {
+        padding: 30px 0 20px 35px;
+        width: 550px;
+        height: 264px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 565px) {
+    .offer-left {
+        width: 500px;
+    }
+
+    .offer-right {
+        width: 500px;
+    }
+}
+
+@media (max-width: 510px) {
+    .offer-left {
+        width: 450px;
+    }
+
+    .offer-right {
+        width: 450px;
+    }
+}
+
+@media (max-width: 460px) {
+    .offer-left {
+        width: 400px;
+    }
+
+    .offer-right {
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .offer-left {
+        width: 350px;
+    }
+
+    .offer-right {
+        width: 350px;
+    }
+}
+
+@media (max-width: 365px) {
+    .offer-left {
+        width: 300px;
+    }
+
+    .offer-right {
+        width: 300px;
+    }
+}

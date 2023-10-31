@@ -1,0 +1,218 @@
+.inner-about {
+    outline: 1px solid green;
+    background: var(--color-smoky);
+    padding: 130px 0 175px 0;
+}
+
+.about-organic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-organic__left {
+    width: 675px;
+    height: 642px;  
+    background: url(../images/about/grapefruit.png);
+    background-position: center center;
+}
+
+.about-organic__right {
+    width: 670px;
+}
+
+.about-organic__title {
+    margin-bottom: 22px;
+    width: 521px;
+}
+
+.about-organic__text {
+    margin-bottom: 56px;
+    color: var(--color-dark-gray);
+    font-family: var(--font-family-openSans-regular);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+}
+
+.about-organic__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-organic__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-organic__icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: var(--color-white);
+    border-radius: 20px;
+}
+
+.circle-organic {
+    position: absolute;
+    top: 36px;
+    left: 20px;
+}
+
+.about-organic__food {
+    position: absolute;
+    top: 27px;
+    left: 31px;
+    z-index: 1;
+}
+
+.circle-quality {
+    position: absolute;
+    top: 48px;
+    left: 22px;
+}
+
+.about-organic__quality {
+    position: absolute;
+    top: 24px;
+    left: 26px;
+    z-index: 1;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.description__quality {
+ padding-right: 16px;
+}
+
+.description__title {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px; 
+    letter-spacing: 0.36px;
+}
+
+.description__text {
+    color: var(--color-dark-gray);
+    font-family: var(--font-family-openSans-regular);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+}
+
+.button-about {
+    margin-top: 45px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 1270px) {
+    .inner-about {
+        padding: 100px 20px 150px 20px;
+    }
+
+    .about-organic__left {
+        width: 540px;
+        height: 513px;
+        background: url(../images/about/grapefruit-media-1270.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1050px) {
+    .inner-about {
+        padding: 50px 20px 20px 20px;
+    }
+
+    .about-organic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+    .about-organic__left {
+        transform: scale(0.8);
+    }
+
+    .button-about {
+        margin-left: 250px;
+    }
+
+    .general-offer--mdeia {
+        text-align: center;
+    }
+}
+
+@media (max-width: 695px) {
+    .about-organic__right {
+        width: 600px;
+    }
+
+    .button-about {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 625px) {
+    .about-organic__right {
+        width: 500px;
+    }
+}
+
+@media (max-width: 520px) {
+    .about-organic__title {
+        width: 400px;
+        text-align: center;
+    }
+
+    .about-organic__right {
+        width: 400px;
+    }
+
+    .button-about {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 432px) {
+    .about-organic__title {
+        width: 300px;
+        text-align: center;
+    }
+
+    .about-organic__right {
+        width: 300px;
+    }
+
+    .about-organic__box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .button-about {
+        margin-left: 50px;
+    }
+
+    .about-organic__left {
+        background: url(../images/about/grapefruit-media-432.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

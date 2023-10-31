@@ -1,0 +1,73 @@
+.inner-cards {
+    padding: 140px 0;
+    background: var(--color-light-green);
+}
+
+.cards-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-box__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 580px;
+    flex-shrink: 0;
+}
+
+.cards-box--fruit {
+    background-image: url(../images/cards-box/fruit-juice.png);
+}
+
+.cards-box__text {
+    width: 281px;
+    height: 95px;
+    padding: 30px 0 30px 79px;
+    background: var(--color-white);
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+}
+
+.cards-box__food {
+    background-image: url(../images/cards-box/organic-food.png);
+}
+
+.cards-box__cookies {
+    background-image: url(../images/cards-box/nuts-cookies.png);
+}
+
+.cards-box__text:hover {
+    box-shadow: 0px 0px 15px 7px var(--color-mint);
+}
+
+@media (max-width: 1380px) {
+    .cards-box {
+    justify-content: space-evenly;
+    gap: 30px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .inner-cards {
+        padding: 40px 0;
+    }
+   
+}
+
+@media (max-width: 500px) {
+    .inner-cards {
+        padding: 40px 5px;
+    }
+   
+    .cards-box__item {
+        width: 322px; 
+        height: 406px;
+    }
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Roboto";
+    src: 
+    local("Roboto"),
+    url(../fonts/roboto-regular.woff) format("woff"),
+    url(../fonts/roboto-regular.woff2) format("woff2");
+
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: 
+    local("Roboto"),
+    url(../fonts/Roboto-bold.woff) format("woff"),
+    url(../fonts/Roboto-bold.woff2) format("woff2");
+
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: 
+    local("OpenSans"),
+    url(../fonts/OpenSans-regular.woff) format("woff"),
+    url(../fonts/OpenSans-regular.woff2) format("woff2");
+
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Yellowtail";
+    src: 
+    local("Yellowtail"),
+    url(../fonts/Yellowtail-regular.woff) format("woff"),
+    url(../fonts/Yellowtail-regular.woff2) format("woff2");
+
+    font-weight: 400;
+}
